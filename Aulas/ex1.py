@@ -12,7 +12,7 @@ while True:
         elif (sexo.upper() == "F"):
             peso_ideal = (62.1 * altura) - 44.7
 
-        print("Seu peso ideal é: ", peso_ideal, "Sexo: ", sexo)
+        print('Seu peso ideal é: {} para seu sexo que é {}' .format(peso_ideal, sexo))
         break
     else:
         print("Informação incorreta. Use M ou F")
@@ -21,3 +21,4 @@ while True:
 
 
         
+""
